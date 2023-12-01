@@ -14,21 +14,6 @@ Variables and Starting Values:
 The initial values of the allocation, max, and available arrays are based on this table:
 ![Table](image.png)
 
-PROCESS     ALLOCATION          MAX        AVAILABLE 
-
-             A   B   C         A  B  C      A   B  C
-
-  P0         0   1   0         7  5  3      3   3  2
-
-  P1         2   0   0         3  2  2
-
-  P2         3   0   2         9  0  2 
-
-  P3         2   1   1         2  2  2
-
-  P4         0   0   2         4  3  3
-  
-
 
 Constant integers "processCount" and "resourceCount" were declared and initialized to represent the number of processes and resources available. There are 5 processes and 3 resources. These variables are used in 2D array declaration as well.
 The int array "Need" is declared to hold the need matrix.
