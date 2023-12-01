@@ -12,6 +12,7 @@ The system is in a safe state and the sequence is: p1, p3, p4, p0, p2
 Variables and Starting Values: 
 
 The initial values of the allocation, max, and available arrays are based on this table:
+![Table](image.png)
 
 PROCESS     ALLOCATION          MAX        AVAILABLE 
 
